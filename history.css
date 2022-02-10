@@ -1,0 +1,26 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: lightgray;
+}
+
+.history {
+  width: 1240px;
+  padding: 40px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.title2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.images-container {
+  padding: 0 0 24px;
+  text-align: center;
+}
+
+.images-container img {
+  width: 100%;
+}
