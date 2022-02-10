@@ -1,0 +1,41 @@
+body{
+    background-color:#2B303A ;
+    font-family:Helvetica,  Arial, sans-serif;
+}
+
+.things-to-do{
+    color:  black;
+    background-color: white;
+    padding: 40px;;
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.container {
+    display: flex;
+    margin: 0 0 50px 0;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.museums {
+    width: 550px;
+}
+
+.text1 {
+    padding: 0 40px 0 0;
+    font-size: 1.25em;
+}
+
+.text2 {
+    padding: 0 0 0 40px;
+    font-size: 1.25em;
+}
+
+a:hover {
+    color: red;
+}
