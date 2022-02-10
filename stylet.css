@@ -28,10 +28,14 @@ body{
 
 .text1 {
     padding: 0 40px 0 0;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .text2 {
     padding: 0 0 0 40px;
-    font-size: 1.5em;
+    font-size: 1.25em;
+}
+
+a:hover {
+    color: red;
 }
