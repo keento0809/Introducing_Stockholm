@@ -31,6 +31,10 @@ header {
   margin-right: 40px;
 }
 
+.nav-list a {
+  text-decoration: none;
+}
+
 .tag {
   background: var(--tagBackground);
   text-decoration: none;
