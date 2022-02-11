@@ -48,27 +48,27 @@ body {
 }
 
 .food-one {
-  background-image: url("./food-img1.jpg");
+  background-image: url("../assets/food-img1.jpg");
 }
 
 .food-two {
-  background-image: url("./food-img2.jpg");
+  background-image: url("../assets/food-img2.jpg");
 }
 
 .food-three {
-  background-image: url("./food-img3.jpg");
+  background-image: url("../assets/food-img3.jpg");
 }
 
 .food-four {
-  background-image: url("./food-img4.jpg");
+  background-image: url("../assets/food-img4.jpg");
 }
 
 .food-five {
-  background-image: url("./food-img5.jpg");
+  background-image: url("../assets/food-img5.jpg");
 }
 
 .food-six {
-  background-image: url("./food-img6.jpg");
+  background-image: url("../assets/food-img6.jpg");
 }
 
 .texts {
@@ -89,4 +89,13 @@ body {
 .texts span {
   font-size: 14px;
   letter-spacing: 3px;
+}
+
+.foods-section {
+  padding: 40px;
+  background-color: #3e3f41;
+}
+
+.title2.center {
+  text-align: center;
 }
