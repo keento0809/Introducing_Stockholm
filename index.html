@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="style/header.css" />
     <link rel="stylesheet" href="style/history.css" />
     <link rel="stylesheet" href="style/things.css" />
-    <link rel="stylesheet" href="style/place.css">
+    <link rel="stylesheet" href="style/place.css" />
+    <link rel="stylesheet" href="style/food.css" />
     <title>Introducing Stockholm</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="header-container">
         <section class="logo-section">
           <img src="assets/logo-white.svg" alt="logo" href="#" />
@@ -26,7 +27,9 @@
             <li>
               <a href="#things-to-do">Things to do </a>
             </li>
-            <li>Food and restaurants</li>
+            <li>
+              <a href="#foods">Food and restaurants</a>
+            </li>
             <li>
               <a href="#places">Place to go</a>
             </li>
@@ -61,7 +64,7 @@
         </p>
       </div>
       <section class="history" id="history">
-        <h2 class="title2">History</h2>
+        <h2 class="title2">History of the city</h2>
         <div class="images-container">
           <img src="assets/history1.jpeg" alt="History 1" />
         </div>
@@ -82,32 +85,13 @@
           John III, whose Swedish government often travelled with them elsewhere
           (see below), the city was still not what could be called a national
           capital in modern terms.
-          <br /><br />
-          Because Stockholm had a city wall, it was exempted from the tax paid
-          by other Swedish cities. During the reign of Gustav Vasa the city's
-          fortifications were reinforced and in the Stockholm Archipelago,
-          Vaxholm was created to guard the inlet from the Baltic. While the
-          medieval structure of Stockholm remained mostly unaltered during the
-          16th century, the city's social and economic importance grew to the
-          extent that no king could permit the city to determine its own faith –
-          the most important export item being bar iron and the most important
-          destination Lübeck. During the reign of Vasa's sons, trade led many
-          Swedes to settle in the city, but the trade and the capital needed to
-          control it was largely in the hands of the king and German merchants
-          from Lübeck and Danzig. Throughout the era, Sweden could hardly claim
-          the level of government and bureaucracy requisite to a capital in the
-          modern sense, but Stockholm was the kingdom's strongest bastion and
-          the king's main residence. As Eric XIV's pretensions were on par with
-          those of Renaissance princes on the continent, he afforded himself the
-          largest court his finances could possibly support, and the royal
-          castle was thus the biggest employer in the city.
         </p>
       </section>
       <section class="things-to-do" id="things-to-do">
-        <h1 class="title1">Things to do</h1>
+        <h2 class="title2">Things to do</h2>
         <div class="container">
           <div class="text1">
-            <h1>The Vasa Museum</h1>
+            <h3 class="title3">The Vasa Museum</h3>
             <p>
               Around 1.5 million visitors every year enjoy the exhibitions in
               the museum, which describe the warship Vasa's history and life at
@@ -133,7 +117,7 @@
         <div class="container">
           <img class="museums" src="assets/boat.jpg" alt="boat" />
           <div class="text2">
-            <h1>Stockholm Archipelago Cruise with Guide</h1>
+            <h3 class="title3">Stockholm Archipelago Cruise with Guide</h3>
             <p>
               This is the perfect boat sightseeing tour when you are looking to
               discover the best and most beautiful parts of the Stockholm
@@ -158,7 +142,7 @@
         </div>
         <div class="container">
           <div class="text1">
-            <h1>Royal Armory</h1>
+            <h3 class="title3">Royal Armory</h3>
             <p>
               The Royal Armoury (Livrustkammaren) is a popular family museum
               located in the cellars of the Royal Palace in Stockholm. The Royal
@@ -180,50 +164,165 @@
           <img class="museums" src="assets/museum.jpg" alt="museum" />
         </div>
       </section>
-      <section class="places" id="places">
-        <h1 class="title">
-          Places To Go
-        </h1>
-        <div class="container">
-          <div class="text1">
-            <div class="baslik">
-              <h1>1. Gamla Stan : The Medieval City of Stockholm</h1>
-            </div>
-            <p>
-              This old town is the place where Stockholm took birth in the early 13th century. Located at the little island of Stadsholmen, the ancient and narrow cobbled streets gives a medieval vibe which is adorned with many souvenir shops, bars and restaurants. And before leaving make sure to not miss out the Mårten Trotzigs Gränd, which is the narrowest street of Stockholm. The Gamla Stan is one of places to visit in Stockholm for free and explore the historical treasures of the town.
-              <a href="https://www.visitstockholm.com/o/gamla-stan/" target="_blank">Click here to see the website of Gamla Stan</a>
-            </p> 
-          </div>
-          <img src="assets/gamla stan.jpg" alt="gamla stan">
-        </div>
-        <div class="container">
-          <img src="assets/royal place.jpg" alt="royal place">
-          <div class="text2">
-            <p>
-              <div class="baslik">
-                <h1>2. The Royal Palace : Abode Of The Sweden Majesty</h1>
+      <section id="foods" class="foods-section">
+        <h2 class="title2 center">Foods and restaurants</h2>
+        <div class="food-lists">
+          <div class="food-tag">
+            <div class="food-common food-one">
+              <div class="texts">
+                <h3>New and trendy restaurants</h3>
+                <span>RESTAURANT</span>
               </div>
-              Witness the royalty at the Royal Palace which is one of the largest palace in Europe. This huge palace is the home of the majesty king of Sweden and hosts with over 600 rooms. It is open for public and holds around 5 museums within its boundaries. The palace has an Italian Baroque architecture, and showcases antiques, armory and royal costumes.
-              <a class="link2" href="https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-royal-palace.html" target="_blank">Click here to see the website of The Royal Palace</a>
+            </div>
+          </div>
+          <div class="food-tag">
+            <div class="food-common food-two">
+              <div class="texts">
+                <h3>Michelin restaurants in Stockholm</h3>
+                <span>RESTAURANT</span>
+              </div>
+            </div>
+          </div>
+          <div class="food-tag">
+            <div class="food-common food-three">
+              <div class="texts text-third">
+                <h3>Gastronomic archipelago</h3>
+                <span>RESTAURANT</span>
+              </div>
+            </div>
+          </div>
+          <div class="food-tag">
+            <div class="food-common food-four">
+              <div class="texts">
+                <h3>Top 15 vegetarian and vegan restaurants</h3>
+                <span>RESTAURANT</span>
+              </div>
+            </div>
+          </div>
+          <div class="food-tag">
+            <div class="food-common food-five">
+              <div class="texts">
+                <h3>Traditional Swedish food in Stockholm</h3>
+                <span>RESTAURANT</span>
+              </div>
+            </div>
+          </div>
+          <div class="food-tag">
+            <div class="food-common food-six">
+              <div class="texts">
+                <h3>13 great restaurants in the suburbs</h3>
+                <span>RESTAURANT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="places" id="places">
+        <h2 class="title2">Places To Go</h2>
+        <div class="container">
+          <div class="text1">
+            <div class="baslik">
+              <h3 class="title3 title-red">
+                1. Gamla Stan : The Medieval City of Stockholm
+              </h3>
+            </div>
+            <p>
+              This old town is the place where Stockholm took birth in the early
+              13th century. Located at the little island of Stadsholmen, the
+              ancient and narrow cobbled streets gives a medieval vibe which is
+              adorned with many souvenir shops, bars and restaurants. And before
+              leaving make sure to not miss out the Mårten Trotzigs Gränd, which
+              is the narrowest street of Stockholm. The Gamla Stan is one of
+              places to visit in Stockholm for free and explore the historical
+              treasures of the town.
+              <br />
+              <br />
+              <a
+                href="https://www.visitstockholm.com/o/gamla-stan/"
+                target="_blank"
+                >Click here to see the website of Gamla Stan</a
+              >
+            </p>
+          </div>
+          <img src="assets/gamla stan.jpg" alt="gamla stan" />
+        </div>
+        <div class="container">
+          <img src="assets/royal place.jpg" alt="royal place" />
+          <div class="text2">
+            <div class="baslik">
+              <h3 class="title3 title-red">
+                2. The Royal Palace : Abode Of The Sweden Majesty
+              </h3>
+            </div>
+            <p>
+              Witness the royalty at the Royal Palace which is one of the
+              largest palace in Europe. This huge palace is the home of the
+              majesty king of Sweden and hosts with over 600 rooms. It is open
+              for public and holds around 5 museums within its boundaries. The
+              palace has an Italian Baroque architecture, and showcases
+              antiques, armory and royal costumes.
+              <br />
+              <br />
+              <a
+                class="link2"
+                href="https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-royal-palace.html"
+                target="_blank"
+                >Click here to see the website of The Royal Palace</a
+              >
             </p>
           </div>
         </div>
         <div class="container">
           <div class="text1">
             <div class="baslik">
-              <h1>3. Skansen Open-Air Museum : The Mini Sweden</h1>
+              <h3 class="title3 title-red">
+                3. Skansen Open-Air Museum : The Mini Sweden
+              </h3>
             </div>
             <p>
-              The Skansen Open-Air Museum is a miniature version of Sweden, located at the suburbs of the Royal Djurgarden. This is one of the world’s oldest open museum which is also a home to many native Scandinavian animals. This place boasts some of the spectacular views of Stockholm and traditions like the Midsummer, Walpurgis and the Lucia which are majorly celebrated in Skansen.
-              <a href="https://www.skansen.se/en/welcome-to-skansen" target="_blank" >Click here to see the website of The Skansen Open-Air Museum</a>
+              The Skansen Open-Air Museum is a miniature version of Sweden,
+              located at the suburbs of the Royal Djurgarden. This is one of the
+              world’s oldest open museum which is also a home to many native
+              Scandinavian animals. This place boasts some of the spectacular
+              views of Stockholm and traditions like the Midsummer, Walpurgis
+              and the Lucia which are majorly celebrated in Skansen.
+              <br />
+              <br />
+              <a
+                href="https://www.skansen.se/en/welcome-to-skansen"
+                target="_blank"
+                >Click here to see the website of The Skansen Open-Air Museum</a
+              >
             </p>
           </div>
-          <img src="assets/svensen.jpg" alt="svensen">
+          <img src="assets/svensen.jpg" alt="svensen" />
         </div>
       </section>
     </main>
     <footer>
-
+      <div class="social-medias">
+        <h2>Social medias</h2>
+        <div class="social-icons">
+          <img src="assets/insta-icon.svg" alt="Instagram" />
+          <img src="assets/facebook-icon.svg" alt="Facebook" />
+          <img src="assets/linkedin-icon.svg" alt="LinkedIn" />
+        </div>
+      </div>
+      <div class="logo-box">
+        <img
+          src="assets/stockholms-stad-logotype.svg"
+          alt="Stockholm logo"
+          class="stockholm-logo"
+        />
+      </div>
+      <div class="authors">
+        Website by Asafe, Emir, Kento, Maurício | 2021
+        <br />
+        🇧🇷 🇯🇵 🇹🇷
+      </div>
     </footer>
+    <div class="go-to-top">
+      <a href="#header">Back to top</a>
+    </div>
   </body>
 </html>

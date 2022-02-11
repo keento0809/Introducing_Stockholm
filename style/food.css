@@ -56,7 +56,7 @@ body {
 }
 
 .food-three {
-  background-image: url("../assets//food-img3.jpg");
+  background-image: url("../assets/food-img3.jpg");
 }
 
 .food-four {
@@ -89,4 +89,13 @@ body {
 .texts span {
   font-size: 14px;
   letter-spacing: 3px;
+}
+
+.foods-section {
+  padding: 40px;
+  background-color: #3e3f41;
+}
+
+.title2.center {
+  text-align: center;
 }

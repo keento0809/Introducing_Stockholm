@@ -16,5 +16,64 @@ body {
   color: var(--color);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 footer {
+  display: flex;
+  padding: 48px 24px;
+}
+
+.social-medias h2 {
+  font-size: 1.2;
+  margin-bottom: 8px;
+}
+
+.social-icons img {
+  width: 32px;
+}
+
+.stockholm-logo {
+  width: 200px;
+}
+
+.logo-box {
+  padding-left: 48px;
+}
+
+.authors {
+  text-align: right;
+  flex-grow: 2;
+}
+
+.title2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.title3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  border-bottom: 1px solid goldenrod;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.title-red {
+  border-bottom: 1px solid brown;
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 8px;
+  color: var(--color2);
+}
+
+a {
+  text-decoration: underline;
 }
